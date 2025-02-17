@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida Dinámica</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" src="style.css">
+
+</head>
+<body>
+    <script src="inex.js"></script>
+    <div class="container">
+        <div class="profile">
+            <img src="https://via.placeholder.com/120" alt="Foto de Perfil">
+            <h1 id="name">Juan Pérez</h1>
+            <h3 id="title">Desarrollador Web Full Stack</h3>
+        </div>
+
+        <div class="section" id="experienceSection">
+            <h2>Experiencia Laboral</h2>
+            <div class="item">
+                <h3>Empresa Tech Solutions</h3>
+                <p>Desarrollador Web - 2020-2023</p>
+                <p>Desarrollo de aplicaciones web modernas utilizando tecnologías como React, Node.js y MongoDB.</p>
+            </div>
+            <div class="item">
+                <h3>Innovate Software</h3>
+                <p>Frontend Developer - 2017-2020</p>
+                <p>Implementación de interfaces de usuario dinámicas y receptivas.</p>
+            </div>
+        </div>
+
+        <div class="section" id="educationSection">
+            <h2>Educación</h2>
+            <div class="item">
+                <h3>Universidad XYZ</h3>
+                <p>Ingeniería de Sistemas - 2013-2017</p>
+            </div>
+        </div>
+
+        <div class="section skills">
+            <h2>Habilidades</h2>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>SQL</span>
+            <span>MongoDB</span>
+        </div>
+
+        <div class="controls">
+            <input type="text" id="newName" placeholder="Nuevo Nombre">
+            <input type="text" id="newTitle" placeholder="Nuevo Título">
+            <button onclick="updateProfile()">Actualizar</button>
+            <br>
+            <input type="text" id="expCompany" placeholder="Empresa">
+            <input type="text" id="expPosition" placeholder="Puesto">
+            <input type="text" id="expYears" placeholder="Años">
+            <button onclick="addExperience()">Agregar Experiencia</button>
+            <br>
+            <input type="text" id="eduInstitution" placeholder="Institución">
+            <input type="text" id="eduDegree" placeholder="Título">
+            <input type="text" id="eduYears" placeholder="Años">
+            <button onclick="addEducation()">Agregar Educación</button>
+        </div>
+    </div>

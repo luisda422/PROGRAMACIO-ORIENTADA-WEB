@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6e45e2, #88d3ce);
+    color: #fff;
+}
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    object-fit: cover;
+}
+.profile h1 {
+    margin: 15px 0 5px;
+    font-size: 2em;
+}
+.profile h3 {
+    margin: 0;
+    font-weight: 300;
+    color: #ccc;
+}
+.section {
+    margin: 20px 0;
+}
+.section h2 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.item {
+    margin: 10px 0;
+}
+.item h3 {
+    margin: 5px 0;
+}
+.skills span {
+    display: inline-block;
+    background: #fff;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 0.9em;
+}
+.controls {
+    text-align: center;
+    margin-top: 20px;
+}
+.controls input {
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+.controls button {
+    padding: 6px 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.controls button:hover {
+    background-color: #ddd;
+}
