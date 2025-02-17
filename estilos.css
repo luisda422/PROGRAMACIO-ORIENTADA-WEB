@@ -1,0 +1,39 @@
+.body{
+  background-color: #000;
+}
+h1{
+    color: #ffffff;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button1 {
+position: relative;
+left: 180px;
+  align-items: cente;
+ background-color: antiquewhite;
+  border-radius: 10px;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 20px;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  
+}
+ form{
+    position: absolute;
+    background-color: #f00000;
+    padding: 10px;
+   width: 300px;
+   top: 100px;
+   color: #ffffff;
+
+   right: auto;
+   border-radius: 20px;
+}
